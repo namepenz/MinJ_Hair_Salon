@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>MINJAE | SEOUL</title>
+  <meta name="description" content="김민재 원장의 하이엔드 헤어 스튜디오" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@200;300;400;500;600&family=Noto+Sans+KR:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+
+  <!-- Navbar -->
+  <header class="nav" id="navbar">
+    <div class="nav-left">
+      <a href="#home" class="logo">MINJAE.</a>
+    </div>
+    <div class="nav-right">
+      <nav class="menu" id="navMenu">
+        <a href="#about">ABOUT</a>
+        <a href="#portfolio">ARCHIVE</a>
+        <a href="#services">SERVICE</a>
+        <a href="#pricing">PRICE</a>
+      </nav>
+      <a href="#reservation" class="btn-book">BOOK NOW</a>
+      <button class="menu-btn" id="hamburger">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mob-link">ABOUT</a>
+      <a href="#portfolio" class="mob-link">ARCHIVE</a>
+      <a href="#services" class="mob-link">SERVICE</a>
+      <a href="#pricing" class="mob-link">PRICE</a>
+      <a href="#reservation" class="mob-link">BOOK NOW</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img src="salon_hero.jpg" alt="Interior" />
+      <div class="overlay"></div>
+    </div>
+    <div class="hero-text">
+      <p class="hero-eyebrow fade-up">SEOUL HAIRSTYLING</p>
+      <h1 class="hero-title fade-up">CRAFTING<br/>IDENTITY.</h1>
+      <div class="hero-bottom fade-up">
+        <p class="hero-desc">15년의 감각, 트렌드를 넘어선<br/>당신만의 시그니처 룩을 디자인합니다.</p>
+        <div class="hero-links">
+          <a href="#portfolio" class="link-line">VIEW ARCHIVE</a>
+          <a href="#reservation" class="link-line">RESERVATION</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Director -->
+  <section id="about" class="section about">
+    <div class="about-grid">
+      <div class="about-img-wrap fade-up">
+        <img src="director.jpg" alt="Director Minjae" />
+      </div>
+      <div class="about-content fade-up">
+        <h2 class="sec-heading">DIRECTOR<br/>MINJAE.</h2>
+        <div class="divider"></div>
+        <p class="body-text">
+          우리는 단순히 머리를 자르는 것이 아니라, 개인의 분위기와 라이프스타일을 분석하여 가장 조화로운 선과 색을 찾아냅니다. 
+        </p>
+        <p class="body-text">
+          미니멀리즘과 세련됨을 바탕으로, 시간이 지나도 변하지 않는 하이엔드 스타일을 제안합니다.
+        </p>
+        <ul class="stats-list">
+          <li>
+            <span class="stat-num">15</span>
+            <span class="stat-lbl">YEARS EXP.</span>
+          </li>
+          <li>
+            <span class="stat-num">5K+</span>
+            <span class="stat-lbl">CLIENTS</span>
+          </li>
+          <li>
+            <span class="stat-num">98%</span>
+            <span class="stat-lbl">RETENTION</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Archive / Portfolio -->
+  <section id="portfolio" class="section archive">
+    <div class="sec-header fade-up">
+      <h2 class="sec-heading">ARCHIVE</h2>
+      <div class="filter-wrap">
+        <button class="filter-btn active" data-filter="all">ALL</button>
+        <button class="filter-btn" data-filter="cut">CUT</button>
+        <button class="filter-btn" data-filter="perm">PERM</button>
+        <button class="filter-btn" data-filter="color">COLOR</button>
+      </div>
+    </div>
+    
+    <div class="archive-grid">
+      <div class="arc-item fade-up" data-cat="perm">
+        <img src="portfolio_1.jpg" alt="Work" />
+        <div class="arc-overlay"><span>PERM / BROWN WAVE</span></div>
+      </div>
+      <div class="arc-item fade-up" data-cat="cut">
+        <img src="portfolio_2.jpg" alt="Work" />
+        <div class="arc-overlay"><span>CUT / MID LAYERED</span></div>
+      </div>
+      <div class="arc-item fade-up" data-cat="color">
+        <img src="portfolio_3.jpg" alt="Work" />
+        <div class="arc-overlay"><span>COLOR / HONEY BEIGE</span></div>
+      </div>
+      <div class="arc-item fade-up" data-cat="cut">
+        <img src="portfolio_4.jpg" alt="Work" />
+        <div class="arc-overlay"><span>CUT / C-CURL LAYERED</span></div>
+      </div>
+      <div class="arc-item fade-up" data-cat="perm">
+        <img src="portfolio_5.jpg" alt="Work" />
+        <div class="arc-overlay"><span>PERM / LONG STRAIGHT</span></div>
+      </div>
+      <div class="arc-item fade-up" data-cat="cut">
+        <img src="portfolio_6.jpg" alt="Work" />
+        <div class="arc-overlay"><span>CUT / MIDI LAYERED</span></div>
+      </div>
+      <div class="arc-item fade-up" data-cat="perm">
+        <img src="portfolio_7.jpg" alt="Work" />
+        <div class="arc-overlay"><span>PERM / NATURAL WAVE</span></div>
+      </div>
+      <div class="arc-item fade-up" data-cat="cut">
+        <img src="portfolio_8.jpg" alt="Work" />
+        <div class="arc-overlay"><span>CUT / LAYERED BANG</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service & Pricing (Minimalist Table) -->
+  <section id="services" class="section services">
+    <div class="service-split">
+      <div class="svc-left fade-up">
+        <h2 class="sec-heading">SERVICE &<br/>PRICING</h2>
+        <p class="body-text">
+          모든 시술은 두피와 모발 컨디션을 꼼꼼하게 진단한 후 1:1 맞춤형으로 진행됩니다.<br/><br/>
+          * 기장 및 모발 상태에 따라 금액이 추가될 수 있습니다.
+        </p>
+      </div>
+      
+      <div class="svc-right" id="pricing">
+        
+        <div class="price-group fade-up">
+          <h3 class="pg-title">CUT.</h3>
+          <div class="price-row"><span>베이직 컷</span><span>30,000</span></div>
+          <div class="price-row"><span>디자인 컷</span><span>80,000</span></div>
+          <div class="price-row"><span>원장 시그니처 컷</span><span>60,000</span></div>
+        </div>
+
+        <div class="price-group fade-up">
+          <h3 class="pg-title">PERM.</h3>
+          <div class="price-row"><span>베이직 펌</span><span>80,000+</span></div>
+          <div class="price-row"><span>매직 스트레이트</span><span>120,000+</span></div>
+          <div class="price-row"><span>시그니처 볼륨 펌</span><span>200,000+</span></div>
+        </div>
+
+        <div class="price-group fade-up">
+          <h3 class="pg-title">COLOR.</h3>
+          <div class="price-row"><span>터치업 (뿌리)</span><span>50,000+</span></div>
+          <div class="price-row"><span>전체 염색</span><span>70,000+</span></div>
+          <div class="price-row"><span>하이라이트 / 발라야쥬</span><span>150,000+</span></div>
+        </div>
+
+        <div class="price-group fade-up">
+          <h3 class="pg-title">CARE.</h3>
+          <div class="price-row"><span>베이직 케어</span><span>30,000</span></div>
+          <div class="price-row"><span>프리미엄 클리닉</span><span>80,000</span></div>
+          <div class="price-row"><span>두피 & 모발 풀케어</span><span>120,000</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation (Sleek Form) -->
+  <section id="reservation" class="section reservation">
+    <div class="res-container fade-up">
+      <div class="res-heading">
+        <h2 class="sec-heading">BOOK YOUR<br/>SESSION</h2>
+      </div>
+      <form class="chic-form" id="resForm">
+        <div class="form-row">
+          <input type="text" id="rName" placeholder="NAME" required />
+          <input type="tel" id="rPhone" placeholder="PHONE (010-0000-0000)" required />
+        </div>
+        <div class="form-row">
+          <input type="date" id="rDate" required />
+          <select id="rTime" required>
+            <option value="" disabled selected>TIME</option>
+            <option>10:00</option><option>11:00</option><option>12:00</option>
+            <option>13:00</option><option>14:00</option><option>15:00</option>
+            <option>16:00</option><option>17:00</option><option>18:00</option><option>19:00</option>
+          </select>
+        </div>
+        <select id="rService" required>
+          <option value="" disabled selected>SERVICE</option>
+          <option>CUT</option>
+          <option>PERM</option>
+          <option>COLOR</option>
+          <option>CARE / CLINIC</option>
+          <option>CONSULTATION</option>
+        </select>
+        <textarea id="rMsg" rows="1" placeholder="MESSAGE (OPTIONAL)"></textarea>
+        
+        <div class="form-footer">
+          <label class="chic-checkbox">
+            <input type="checkbox" id="rPrivacy" required />
+            <span>I agree to the privacy policy.</span>
+          </label>
+          <button type="submit" class="btn-submit" id="submitBtn">SUBMIT REQUEST</button>
+        </div>
+      </form>
+
+      <div class="form-success" id="formOk" style="display:none;">
+        <h3>REQUEST RECEIVED.</h3>
+        <p>예약 요청이 성공적으로 접수되었습니다.<br/>빠른 시일 내에 확정 문자를 보내드리겠습니다.</p>
+        <button id="newResBtn" class="link-line">MAKE ANOTHER BOOKING</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="ft-top">
+      <h2 class="ft-logo">MINJAE.</h2>
+      <div class="ft-info">
+        <p>SEOUL, GANGNAM-GU<br/>CHEONGDAM-DONG 123-45</p>
+        <p>T. <a href="tel:02-1234-5678">02 1234 5678</a><br/>IG. <a href="#">@MINJAE_STUDIO</a></p>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <p>&copy; 2024 MINJAE STUDIO. ALL RIGHTS RESERVED.</p>
+      <div class="ft-links">
+        <a href="#">PRIVACY POLICY</a>
+        <a href="#">TERMS</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
